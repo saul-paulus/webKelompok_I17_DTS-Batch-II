@@ -13,6 +13,41 @@ a {
 
 /* Costume style */
 .container {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+/* Membuat Navbar */
+.nav {
+  background-color: dodgerblue;
+  width: 100%;
+}
+
+.logo-brand {
+  padding-top: 13px;
+  float: left;
+}
+.logo-brand a {
+  font-size: 20px;
+  color: white;
+}
+
+.nav-link {
+  float: right;
+}
+.nav-link ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.nav-link ul li a {
+  color: white;
+}
+
+/* costume clear untuk float */
+.clear:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }
