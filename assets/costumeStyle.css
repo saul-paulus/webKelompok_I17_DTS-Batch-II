@@ -64,7 +64,10 @@ main {
   background-image: url(../img/you-x-ventures-Oalh2MojUuk-unsplash.jpg);
   background-size: cover;
 }
-
+.main h1,
+.main p {
+  opacity: 0.7;
+}
 /* costume clear untuk float */
 .clear:after {
   content: "";
