@@ -107,7 +107,8 @@ main p {
 }
 
 .about-title,
-.project-title {
+.project-title,
+.portfolio-title {
     text-align: center;
 }
 
