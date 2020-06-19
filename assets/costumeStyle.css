@@ -153,7 +153,18 @@ main p {
 
 .contact {
     padding-top: 3rem;
+    padding-bottom: 3rem;
     background-color: whitesmoke;
+}
+
+
+/* Membiuat footer */
+
+footer {
+    text-align: center;
+    background-color: rgb(24, 23, 23);
+    padding: 40px;
+    color: white;
 }
 
 
