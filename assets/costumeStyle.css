@@ -99,11 +99,16 @@ main p {
 
 /* Costume style about */
 
+.about,
+.project,
+.portfolio,
+.contact {
+    padding-top: 3rem;
+}
+
 .about {
     height: 500px;
     width: 100%;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
 }
 
 .about-title,
@@ -135,25 +140,18 @@ main p {
 /* costume project */
 
 .project {
-    padding-bottom: 3rem;
-    padding-top: 1rem;
     background-color: whitesmoke;
 }
 
 
 /* costume portfolio */
 
-.portfolio {
-    padding-bottom: 3rem;
-    padding-top: 1rem;
-}
+.portfolio {}
 
 
 /* costume contact */
 
 .contact {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
     background-color: whitesmoke;
 }
 
