@@ -108,7 +108,8 @@ main p {
 
 .about-title,
 .project-title,
-.portfolio-title {
+.portfolio-title,
+.contact-title {
     text-align: center;
 }
 
@@ -141,6 +142,19 @@ main p {
 
 
 /* costume portfolio */
+
+.portfolio {
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+
+
+/* costume contact */
+
+.contact {
+    padding-top: 3rem;
+    background-color: whitesmoke;
+}
 
 
 /* costume clear untuk float */
