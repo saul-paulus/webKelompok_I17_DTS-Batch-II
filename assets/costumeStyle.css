@@ -78,9 +78,13 @@ main h1 {
 
 /* Costume style about */
 .about {
+  height: 500px;
+  width: 100%;
+  margin-top: -20px;
+  padding-top: 2rem;
   background-color: whitesmoke;
 }
-.about .about-title {
+.about-title {
   text-align: center;
 }
 
