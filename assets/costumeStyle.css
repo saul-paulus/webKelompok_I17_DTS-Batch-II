@@ -10,3 +10,9 @@ ol {
 a {
   text-decoration: none;
 }
+
+/* Costume style */
+.container {
+  margin-left: 40px;
+  margin-right: 40px;
+}
