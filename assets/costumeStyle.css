@@ -97,11 +97,11 @@ main h1 {
   color: rgb(27, 27, 26);
 }
 main h2 {
-  color: rgb(196, 194, 192);
-  background-color: teal;
+  color: rgb(19, 18, 18);
+  background-color: rgba(0, 128, 128, 0.062);
   padding: 10px;
   animation-name: animastioBackground;
-  animation-duration: 20s;
+  animation-duration: 10s;
 }
 main p {
   font-size: 15px;
@@ -197,8 +197,18 @@ main p {
 
 .contact {
   background-color: whitesmoke;
+  text-align: center;
+  padding-bottom: 10rem;
 }
 
+.form-group {
+  border: 2px solid salmon;
+}
+.form-group input {
+  margin: 10px;
+  width: 40%;
+  height: 30px;
+}
 /* Costume card */
 
 .card {
@@ -260,22 +270,28 @@ footer {
 
 @keyframes animastioBackground {
   0% {
-    background-color: red;
+    background-color: rgb(245, 23, 23);
+    color: white;
   }
   20% {
-    background-color: yellow;
+    background-color: rgb(252, 252, 34);
+    color: white;
   }
   40% {
-    background-color: blue;
+    background-color: rgb(56, 56, 252);
+    color: white;
   }
   60% {
-    background-color: green;
+    background-color: rgb(7, 201, 7);
+    color: white;
   }
   80% {
     background-color: salmon;
+    color: white;
   }
   100% {
     background-color: black;
+    color: white;
   }
 }
 
