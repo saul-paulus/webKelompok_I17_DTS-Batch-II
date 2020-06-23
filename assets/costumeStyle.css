@@ -85,6 +85,7 @@ main .wrapper {
   height: 700px;
   background-image: url(../img/you-x-ventures-Oalh2MojUuk-unsplash.jpg);
   background-size: cover;
+  box-shadow: 2px 3px 10px yellow;
 }
 
 main h1 {
@@ -119,6 +120,7 @@ main p {
 
 .about-img {
   flex: 1;
+  margin: 20px;
 }
 
 .about-img-title {
