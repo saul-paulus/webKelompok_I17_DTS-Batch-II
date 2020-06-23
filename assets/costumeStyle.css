@@ -89,11 +89,15 @@ main .wrapper {
 }
 
 main h1 {
-  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 70px;
   margin-top: 10rem;
   color: rgb(27, 27, 26);
 }
-
+main h2 {
+  color: rgb(46, 45, 44);
+}
 main p {
   font-size: 15px;
   font-weight: 300;
@@ -169,22 +173,34 @@ main p {
 /* Costume card */
 
 .card {
+  text-align: center;
   width: 13%;
   margin: 30px;
 }
 .card img {
-  box-shadow: 0 0 17px yellowgreen;
+  box-shadow: 0 0 10px rgb(39, 39, 38);
   border-radius: 50%;
   width: 100%;
   height: 150px;
+  cursor: pointer;
+  transition: all 0.3s;
+  opacity: 0.8;
 }
-.card-text {
-  text-align: center;
+.card img:hover {
+  opacity: 1;
   font-size: 14px;
+  color: rgb(97, 96, 94);
 }
 .container-project-card {
   justify-content: center;
   display: flex;
+}
+.card a {
+  font-size: 14px;
+  font-weight: 400;
+}
+.card a :hover {
+  color: blue;
 }
 /* Membiuat footer */
 
@@ -202,6 +218,15 @@ footer {
   visibility: hidden;
   height: 0;
   clear: both;
+}
+
+@keyframes animationCard {
+  from {
+    width: 0;
+  }
+  to {
+    width: 20%;
+  }
 }
 
 /* Costume break point responsive */
