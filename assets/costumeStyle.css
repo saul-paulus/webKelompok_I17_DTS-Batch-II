@@ -39,6 +39,7 @@ hr {
   position: fixed;
   width: 100%;
   background-color: rgba(8, 204, 204, 0.603);
+  z-index: 9999;
 }
 
 .logo-brand {
