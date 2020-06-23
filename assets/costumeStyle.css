@@ -163,8 +163,31 @@ main p {
 /* costume portfolio */
 
 .portfolio {
+  text-align: center;
 }
-
+.container-portfolio-card {
+  margin-top: -60px;
+  display: flex;
+  justify-content: center;
+}
+.container-portfolio-card .card {
+  background-color: rgb(98, 121, 145);
+  border: 1px solid salmon;
+  border-radius: 10px;
+  padding: 10px;
+}
+.container-portfolio-card .card p {
+  color: white;
+}
+.container-portfolio-card .card img {
+  box-shadow: 0 0 10px rgb(39, 39, 38);
+  border-radius: 0;
+  width: 100%;
+  height: 150px;
+  cursor: pointer;
+  transition: all 0.3s;
+  opacity: 0.8;
+}
 /* costume contact */
 
 .contact {
