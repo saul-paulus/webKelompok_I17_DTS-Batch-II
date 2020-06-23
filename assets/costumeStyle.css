@@ -24,7 +24,7 @@ a {
 }
 
 hr {
-  border: 2px solid rgb(128, 125, 125);
+  border: 2px solid yellowgreen;
   width: 20%;
 }
 .row {
@@ -132,7 +132,7 @@ main p {
 
 .about-img img {
   width: 100%;
-  height: 400px;
+  height: 440px;
 }
 .about-img-title h3 {
   text-align: center;
@@ -169,17 +169,22 @@ main p {
 /* Costume card */
 
 .card {
-  width: 17%;
+  width: 13%;
+  margin: 30px;
 }
 .card img {
   box-shadow: 0 0 17px yellowgreen;
   border-radius: 50%;
   width: 100%;
-  height: 200px;
+  height: 150px;
 }
 .card-text {
   text-align: center;
   font-size: 14px;
+}
+.container-project-card {
+  justify-content: center;
+  display: flex;
 }
 /* Membiuat footer */
 
