@@ -1,101 +1,100 @@
 /* reset style */
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 ul,
 ol {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 
 /* Costume style */
 
 .container {
-    margin-left: 60px;
-    margin-right: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 hr {
-    border: 2px solid rgb(128, 125, 125);
-    width: 20%;
+  border: 2px solid rgb(128, 125, 125);
+  width: 20%;
 }
-
-
+.row {
+  padding-top: 4rem;
+}
 /* Membuat Navbar */
 
 .nav {
-    top: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-    width: 100%;
-    background-color: rgba(8, 204, 204, 0.603);
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(8, 204, 204, 0.603);
 }
 
 .logo-brand {
-    padding-top: 13px;
-    float: left;
+  padding-top: 13px;
+  float: left;
 }
 
 .logo-brand a {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .nav-link {
-    float: right;
+  float: right;
 }
 
 .nav-link ul li {
-    display: inline-block;
-    margin-right: 20px;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 .nav-link ul li a {
-    transition: all 0.5;
+  transition: all 0.5;
 }
 
 .nav-link ul li a,
 .logo-brand a {
-    padding: 10px;
-    color: black;
-    transition: all 0.3;
+  padding: 10px;
+  color: black;
+  transition: all 0.3;
 }
 
 .nav-link ul li a:hover,
 .logo-brand a:hover {
-    color: rgb(3, 98, 194);
+  color: rgb(3, 98, 194);
 }
-
 
 /* costume style main */
 
 main .wrapper {
-    text-align: center;
-    padding-top: 70px;
-    margin-top: -20px;
-    width: 100%;
-    height: 700px;
-    background-image: url(../img/you-x-ventures-Oalh2MojUuk-unsplash.jpg);
-    background-size: cover;
+  text-align: center;
+  padding-top: 70px;
+  margin-top: -20px;
+  width: 100%;
+  height: 700px;
+  background-image: url(../img/you-x-ventures-Oalh2MojUuk-unsplash.jpg);
+  background-size: cover;
 }
 
 main h1 {
-    font-size: 40px;
-    margin-top: 10rem;
+  font-size: 40px;
+  margin-top: 10rem;
 }
 
 main p {
-    font-size: 20px;
+  font-size: 20px;
 }
-
 
 /* Costume style about */
 
@@ -103,114 +102,125 @@ main p {
 .project,
 .portfolio,
 .contact {
-    padding-top: 3rem;
+  padding-top: 3rem;
 }
 
 .about {
-    height: 500px;
-    width: 100%;
+  height: 500px;
+  width: 100%;
 }
 
 .about-title,
 .project-title,
 .portfolio-title,
 .contact-title {
-    text-align: center;
+  text-align: center;
 }
 
 .about-img {
-    flex: 1;
+  flex: 1;
 }
 
 .about-img-title {
-    padding-top: 4rem;
-    flex: 1;
+  padding-top: 4rem;
+  flex: 1;
 }
 
 .about-img img {
-    width: 100%;
-    height: 400px;
+  width: 100%;
+  height: 400px;
 }
 
 .container-about {
-    display: flex;
+  display: flex;
 }
-
 
 /* costume project */
 
 .project {
-    background-color: whitesmoke;
+  height: 30rem;
+  background-color: whitesmoke;
 }
-
 
 /* costume portfolio */
 
-.portfolio {}
-
+.portfolio {
+}
 
 /* costume contact */
 
 .contact {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
+/* Costume card */
 
+.card {
+  width: 17%;
+}
+.card img {
+  box-shadow: 0 0 17px yellowgreen;
+  border: 2px solid rgb(117, 113, 113);
+  border-radius: 50%;
+  width: 100%;
+  height: 200px;
+}
+.card-text {
+  text-align: center;
+  font-size: 14px;
+}
 /* Membiuat footer */
 
 footer {
-    text-align: center;
-    background-color: rgb(24, 23, 23);
-    padding: 40px;
-    color: white;
+  text-align: center;
+  background-color: rgb(24, 23, 23);
+  padding: 40px;
+  color: white;
 }
-
 
 /* costume clear untuk float */
 
 .clear:after {
-    content: "";
-    visibility: hidden;
-    height: 0;
-    clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+  clear: both;
 }
 
-
 /* Costume break point responsive */
-
 
 /* Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575.98px) {
-    .nav {
-        text-align: center;
-    }
-    .logo-brand {
-        float: none;
-    }
-    .nav-link {
-        float: none;
-    }
-    .nav-link ul {
-        margin-left: -30px;
-    }
-    .nav-link ul li {
-        display: block;
-        padding: 10px;
-    }
+  .nav {
+    text-align: center;
+  }
+  .logo-brand {
+    float: none;
+  }
+  .nav-link {
+    float: none;
+  }
+  .nav-link ul {
+    margin-left: -30px;
+  }
+  .nav-link ul li {
+    display: block;
+    padding: 10px;
+  }
 }
-
 
 /* Small devices (landscape phones, less than 768px) */
 
-@media (max-width: 767.98px) {}
-
+@media (max-width: 767.98px) {
+}
 
 /* Medium devices (tablets, less than 992px) */
 
-@media (max-width: 991.98px) {}
-
+@media (max-width: 991.98px) {
+}
 
 /* Large devices (desktops, less than 1200px) */
 
-@media (max-width: 1199.98px) {}
+@media (max-width: 1199.98px) {
+}
