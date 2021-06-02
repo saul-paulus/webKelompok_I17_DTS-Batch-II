@@ -1,5 +1,6 @@
 # webKelompok_I17_DTS-Batch-II
-Ini adalah tampilan web dari kelompok I17 dibangun menggunkan HTML dan CSS,
+Ini adalah tampilan web dari kelompok I17 dibangun menggunkan HTML dan CSS, tanpa menggunakan
+framework css,
 
 jadi ini adalah projek yang dikerjakan saat mengikuti pelatihan Digital Talent Kominfo di progate.com
 
